@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>template is working</title>
+</head>
+<body>
+
+<h1>welcome to text analyzer. </h1>
+<p>enater your text below</p>
+<form action='/analyze' method='get'>
+    <textarea name='text'></textarea><br>
+    <input type='checkbox' name='removepunc'> Remove Punctuation<br>
+    <input type='checkbox' name='fullcaps'> CAPITALIZE <br>
+    <input type='checkbox' name='newlineremove'> Remove Newline <br>
+    <input type='checkbox' name='extraspaceremove'> Extra Space Remover <br>
+    <input type='checkbox' name='charcount'> Count Character's <br>
+    <button type='submit'>analyze text</button>
+</form>
+
+</body>
+</html>
